@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
     if (touch === "ArrowUp"){
             document.getElementById('upCircle').style.border = "2px solid white";
             document.getElementById('up').currentTime = 0;
+	    document.getElementById('up').volume = 0.5;
             document.getElementById('up').play();
             let nobor = function (){document.getElementById('upCircle').style.border = ""};
             tab += "up";
